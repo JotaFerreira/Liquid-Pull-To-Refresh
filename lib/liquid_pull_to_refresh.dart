@@ -61,6 +61,8 @@ class LiquidPullToRefresh extends StatefulWidget {
         assert(notificationPredicate != null),
         super(key: key);
 
+  /// ScrollController if you have a listview with ScrollController
+  ///
   final ScrollController scrollController;
 
   /// The widget below this widget in the tree.
